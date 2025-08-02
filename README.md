@@ -19,7 +19,7 @@ mkdir -p /path/to/nextcloud/data
 Get Nextcloud logo from official logo ressources.
 
 ```bash
-wget https://nextcloud.com/c/uploads/2024/07/nextcloud-logo.png?original
+wget https://nextcloud.com/c/uploads/2024/07/nextcloud-logo.png
 ```
 
 ## Installation
