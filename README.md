@@ -16,6 +16,12 @@ Create `NEXTCLOUD_DATA_DIR`.
 mkdir -p /path/to/nextcloud/data
 ```
 
+Get Nextcloud logo from official logo ressources.
+
+```bash
+wget https://nextcloud.com/c/uploads/2024/07/nextcloud-logo.png?original
+```
+
 ## Installation
 
 Install `container-nextcloud.service`, `nextcloud.conf`, `nextcloud-logo.png` and `nextcloud.desktop`.
