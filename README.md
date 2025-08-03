@@ -1,11 +1,23 @@
 # Nextcloud Server Desktop Integration
 
-## Configuration
+## Prerequisites
 
-Define `NEXTCLOUD_PORT` and `NEXTCLOUD_DATA_DIR` in `nextcloud.conf`.
+Install Podman.
 
 ```bash
-cat nextcloud.conf
+# deb based systems
+sudo apt install -y podman
+# dnf based systems
+sudo dnf install -y podman
+```
+
+## Configuration
+
+Copy `nextcloud.conf.example` to `nextcloud.conf` and define `NEXTCLOUD_PORT` and `NEXTCLOUD_DATA_DIR` in `nextcloud.conf`.
+
+```bash
+cp nextcloud.conf.example nextcloud.conf
+vim nextcloud.conf
 NEXTCLOUD_PORT=8080
 NEXTCLOUD_DATA_DIR=/path/to/nextcloud/data
 ```
